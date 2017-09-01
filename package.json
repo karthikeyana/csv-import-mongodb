@@ -1,0 +1,33 @@
+{
+  "name": "csvjson",
+  "version": "1.0.0",
+  "description": "upload csv to json and insert it into MongoDB for a single colletion",
+  "scripts": {
+    "start": "node csvjson.js"
+  },
+  "dependencies": {
+    "csvjson": "^4.3.4",
+    "fs": "^0.0.1-security",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikeyana/csv-import-mongodb.git"
+  },
+  "keywords": [
+    "csv",
+    "json",
+    "mongodb",
+    "nodejs",
+    "collection",
+    "import",
+    "export"
+  ],
+  "author": "karthikeyan.a",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikeyana/csv-import-mongodb/issues"
+  },
+  "homepage": "https://github.com/karthikeyana/csv-import-mongodb#readme"
+}
