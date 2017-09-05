@@ -27,7 +27,7 @@ function uploadcsvModule(){
    	MongoClient.connect(mongoDSN, function(error, db) {
         collection = db.collection("orders")
         collection.insertMany(importArr, function(err,result){
-        	fs.writeFile('/home/limitless/Downloads/orders_sample1.csv', csv, { encoding : 'utf8'});
+        	fs.writeFile('/home/limitless/Downloads/orders_sample1.csv', csv);
         	db.close();
         });            
     })
